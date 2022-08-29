@@ -1,0 +1,37 @@
+.to-do-items {
+    display: flex;
+    background-color: rgba(182, 182, 182, 0.35);
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.to-do-items-complete{
+    background-color: rgba(188, 255, 212, 0.35);
+}
+
+.to-do-buttons{
+    display: flex;
+    background: none;
+
+}
+
+.to-do-buttons button{
+
+    background: none;
+    border: none;
+    color: white;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.complete{
+    text-decoration: line-through;
+    color: rgba(255, 255, 255, 0.62);
+
+}
+
+.not-complete{
+
+}

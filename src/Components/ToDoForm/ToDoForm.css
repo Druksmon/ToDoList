@@ -1,0 +1,54 @@
+.form-to-do {
+    margin:  30px;
+    display: flex;
+
+}
+
+.form-to-do svg{
+    color: white;
+}
+.form-to-do input{
+    padding: 0 15px;
+    color: white;
+    width: 80%;
+    max-width: 300px;
+
+}
+.form-to-do input, .form-to-do button {
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.47);
+    height: 25px;
+}
+.form-to-do button{
+    /*min-width: 50px;*/
+    margin: 0 0 0 10px;
+    cursor: pointer;
+    width: 20%;
+    max-width: 50px;
+}
+
+
+
+
+/*RESPONSIVE */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+}
+
