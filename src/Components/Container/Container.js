@@ -1,6 +1,5 @@
 import './Container.css'
 import svg from '../Assets/blobanimation.svg'
-// import svg from '../Assets/blobanimation2.svg'
 import macButtons from '../Assets/mac-buttons.png'
 import ToDoForm from "../ToDoForm/ToDoForm";
 import {useState} from "react";
@@ -11,7 +10,6 @@ import {AnimatePresence, motion} from "framer-motion";
 const Container = () => {
 
     const [toDo, setToDo] = useState([]);
-
 
     const addToDo = (text) => {
 
@@ -27,7 +25,6 @@ const Container = () => {
             key: id,
             complete: false,
         }
-
         setToDo(() => [newToDo, ...toDo])
     }
 
@@ -37,7 +34,6 @@ const Container = () => {
     }
 
     const handleComplete = (id) => {
-
         const upDateToDo = toDo.map((el) => {
             if (el.id === id) {
                 el.complete = !el.complete;
@@ -81,7 +77,7 @@ const Container = () => {
                 </div>
             </motion.div>
             <div className="credits">
-                <a target='_blank' href="https://www.linkedin.com/in/dariovolk/">code by dario-volkmann</a>
+                <a target='_blank' href="https://www.linkedin.com/in/dariovolk/" rel="noreferrer">code by dario-volkmann</a>
             </div>
         </div>
 

@@ -22,7 +22,7 @@ const ToDoForm = ({addToDo}) => {
     return (
 
         <form className='form-to-do' onSubmit={handleSubmit}>
-            <input ref={inputRef} placeholder='Insert Text' onChange={(e) => setTextToDo(e.target.value)} type=""/>
+            <input ref={inputRef} placeholder='Insert Text' onChange={(e) => setTextToDo(e.target.value)} type="text"/>
             <button>
                 <FontAwesomeIcon icon={faAdd}/>
             </button>
